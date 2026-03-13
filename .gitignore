@@ -1,0 +1,66 @@
+# ==============================================================================
+# Python / Flask API GitIgnore
+# ==============================================================================
+
+# 1. Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 3. Environments and Secrets
+# For API Keys to be added in future phases (Telegram alert etc.):
+.env
+.env.local
+.env.*
+!.env.example
+
+# 4. Logs and Databases
+# db extensions for SQLite Trade Journal in the roadmap:
+*.log
+*.sqlite3
+*.sqlite
+*.db
+
+# 5. OS and Editor Files
+# OS residuals (especially important since you use macOS)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 6. IDEs / Editors
+# Development environment configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+
+# 7. Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# 8. Type Checking and Coverage
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# 9. Project Specific Data (Optional)
+# Backtest results or cached JSON data (If you don't want them tracked)
+# *.json
